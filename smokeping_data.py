@@ -155,13 +155,15 @@ def cropstuff():
             if os.path.isfile(fullpath) and item.endswith(".png"):
                 im = Image.open(fullpath)
                 f,e = os.path.splitext(fullpath)
+                #imCrop = im.crop((-65, 295, 195, 695)) 
                 imCrop = im.crop((-65, 230, 195, 695)) 
-                imCrop.save(f + '2.png', "png", quality=100)
+                imCrop.save(f + '2crop.png', "png", quality=100)				
+				
     crop()
 
     def move():
         for item in os.listdir(path):
-            if item.lower().endswith('2.png'):
+            if item.lower().endswith('2crop.png.png'):
                 shutil.move(os.path.join(path, item), newpath)
     move()
 
