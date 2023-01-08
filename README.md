@@ -11,3 +11,8 @@ Outputs data from Smokeping servers with the default theme using BeautifulSoup, 
 
 ## Screenshot
 ![Screenshot](menu.png)
+
+<br>
+
+## Example Text file output
+![Screenshot](example_text.png)
