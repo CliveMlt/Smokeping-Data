@@ -163,7 +163,7 @@ def cropstuff():
 
     def move():
         for item in os.listdir(path):
-            if item.lower().endswith('2crop.png.png'):
+            if item.lower().endswith('2crop.png'):
                 shutil.move(os.path.join(path, item), newpath)
     move()
 
