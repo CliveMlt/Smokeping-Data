@@ -155,6 +155,7 @@ def cropstuff():
             if os.path.isfile(fullpath) and item.endswith(".png"):
                 im = Image.open(fullpath)
                 f,e = os.path.splitext(fullpath)
+				#For Full images:
                 #imCrop = im.crop((-65, 295, 195, 695)) 
                 imCrop = im.crop((-65, 230, 195, 695)) 
                 imCrop.save(f + '2crop.png', "png", quality=100)				
