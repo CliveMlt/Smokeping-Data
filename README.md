@@ -1,4 +1,4 @@
-# Smokeping-Data
+# Smokeping-Data-Scraper
 Outputs data from Smokeping servers with the default theme using BeautifulSoup, Selenium and Pytesseract.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
